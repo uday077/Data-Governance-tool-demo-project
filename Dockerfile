@@ -8,8 +8,8 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies (including dev dependencies for build)
-RUN npm ci --only=production && \
+# Install dependencies (production only)
+RUN npm install --omit=dev && \
     npm cache clean --force
 
 # Stage 2: Production stage
