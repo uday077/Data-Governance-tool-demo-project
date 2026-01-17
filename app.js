@@ -227,6 +227,7 @@ app.get('/', (req, res) => {
     service: 'Data Governance Tool',
     version: '1.0.0',
     status: 'running',
+    developer: 'Uday Patil',
     endpoints: {
       health: '/health',
       assets: '/api/assets',
