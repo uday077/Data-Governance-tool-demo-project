@@ -1,4 +1,4 @@
-# Data Governance Tool - DevOps Demo Project
+  # Data Governance Tool - DevOps Demo Project
 
 A production-ready Data Governance Tool demonstrating a complete AWS DevOps workflow with Docker, ECR, CodeBuild, and EC2 deployment.
 
